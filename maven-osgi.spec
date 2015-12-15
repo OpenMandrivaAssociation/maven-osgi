@@ -1,7 +1,8 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           maven-osgi
 Version:        0.2.0
-Release:        6.1%{?dist}
+Release:        6.2
+Group:	Development/Java
 # Maven-shared defines maven-osgi version as 0.3.0
 Epoch:          1
 Summary:        Library for Maven-OSGi integration
@@ -19,7 +20,7 @@ Source1:        http://www.apache.org/licenses/LICENSE-2.0.txt
 BuildRequires:  maven-local
 BuildRequires:  mvn(biz.aQute:bndlib)
 BuildRequires:  mvn(org.apache.maven.shared:maven-plugin-testing-harness)
-BuildRequires:  mvn(org.apache.maven.shared:maven-shared-components)
+BuildRequires:  mvn(org.apache.maven.shared:maven-shared-components:pom:)
 BuildRequires:  mvn(org.apache.maven:maven-project)
 
 Obsoletes:      maven-shared-osgi < %{epoch}:%{version}-%{release}
