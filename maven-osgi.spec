@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           maven-osgi
 Version:        0.2.0
-Release:        6.2
+Release:        6.3
 Group:	Development/Java
 # Maven-shared defines maven-osgi version as 0.3.0
 Epoch:          1
