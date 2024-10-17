@@ -7,7 +7,7 @@ Group:	Development/Java
 Epoch:          1
 Summary:        Library for Maven-OSGi integration
 License:        ASL 2.0
-URL:            http://maven.apache.org/shared/maven-osgi
+URL:            https://maven.apache.org/shared/maven-osgi
 BuildArch:      noarch
 
 # svn export http://svn.apache.org/repos/asf/maven/shared/tags/maven-osgi-0.2.0 maven-osgi-0.2.0
